@@ -1,0 +1,11 @@
+title: Backstage Live — Legal
+description: Privacy Policy and Terms of Service for the Backstage Live app
+theme: jekyll-theme-minimal
+markdown: kramdown
+permalink: /:title
+
+# Pretty URLs — strip the .md so links like /privacy and /terms work
+include:
+  - privacy.md
+  - terms.md
+  - index.md
