@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Support — Backstage Live for iPad</title>
+    <meta
+      name="description"
+      content="How to use Backstage Live, common questions, and how to get help."
+    />
+    <link rel="canonical" href="https://backstagelive.app/support" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://backstagelive.app/support" />
+    <meta property="og:title" content="Support — Backstage Live" />
+    <meta
+      property="og:description"
+      content="How to use Backstage Live, common questions, and how to get help."
+    />
+    <meta property="og:site_name" content="Backstage Live" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Support — Backstage Live" />
+    <meta
+      name="twitter:description"
+      content="How to use Backstage Live, common questions, and how to get help."
+    />
+    <style>
+      :root {
+        --ink: hsl(25, 18%, 14%);
+        --muted: hsl(25, 10%, 42%);
+        --line: hsl(30, 18%, 88%);
+        --bg: #FCFBF7;
+        --accent: hsl(14, 80%, 55%);
+        --card: #fff;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+          sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 80px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 32px;
+      }
+      .brand-mark {
+        width: 44px;
+        height: 44px;
+        background: hsl(150, 31%, 18%);
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+      }
+      .brand-mark svg { width: 30px; height: 30px; }
+      .brand-name {
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: -0.01em;
+      }
+      h1 {
+        font-size: 32px;
+        margin: 0 0 8px;
+        letter-spacing: -0.02em;
+      }
+      .subtitle {
+        color: var(--muted);
+        font-size: 16px;
+        margin-bottom: 32px;
+      }
+      .contact-card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 20px 22px;
+        display: flex;
+        gap: 18px;
+        align-items: center;
+        margin-bottom: 36px;
+        flex-wrap: wrap;
+      }
+      .contact-card-text { flex: 1; min-width: 220px; }
+      .contact-card-text-title {
+        font-weight: 700;
+        margin-bottom: 4px;
+      }
+      .contact-card-text-help {
+        color: var(--muted);
+        font-size: 14px;
+      }
+      .contact-btn {
+        background: var(--accent);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 800;
+        padding: 12px 20px;
+        border-radius: 12px;
+        font-size: 14px;
+      }
+      .faq {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        margin-bottom: 8px;
+        overflow: hidden;
+      }
+      .faq summary {
+        list-style: none;
+        cursor: pointer;
+        padding: 14px 18px;
+        font-weight: 700;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .faq summary::-webkit-details-marker { display: none; }
+      .faq summary::after {
+        content: "+";
+        font-size: 20px;
+        color: var(--muted);
+      }
+      .faq[open] summary::after { content: "−"; }
+      .faq summary:hover { background: hsl(34, 28%, 96%); }
+      .faq p {
+        margin: 0;
+        padding: 0 18px 16px;
+        color: var(--muted);
+        font-size: 14px;
+        line-height: 1.55;
+      }
+      .faq strong { color: var(--ink); }
+      h2 {
+        font-size: 18px;
+        margin: 36px 0 12px;
+      }
+      .footer {
+        margin-top: 48px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+      }
+      a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="brand">
+        <div class="brand-mark">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 32 94 L 32 58 A 28 28 0 0 1 88 58 L 88 94 Z" fill="#FCFBF7"/>
+            <circle cx="60" cy="66" r="5" fill="#C66B3D"/>
+          </svg>
+        </div>
+        <div class="brand-name">Backstage Live for iPad</div>
+      </div>
+
+      <h1>Support</h1>
+      <p class="subtitle">
+        How to use Backstage, common questions, and how to get help.
+      </p>
+
+      <div class="contact-card">
+        <div class="contact-card-text">
+          <div class="contact-card-text-title">Need a hand?</div>
+          <div class="contact-card-text-help">
+            Email us — we read every message and reply within a day or two.
+          </div>
+        </div>
+        <a
+          class="contact-btn"
+          href="mailto:backstageliveapp@gmail.com?subject=Backstage%20Live%20-%20Support"
+        >
+          Email us
+        </a>
+      </div>
+
+      <h2>Frequently asked questions</h2>
+
+      <details class="faq">
+        <summary>How do I connect to my Whatnot show?</summary>
+        <p>
+          Tap <strong>Open Whatnot</strong> on the Live screen. The
+          in-app browser opens; sign in to your Whatnot account, then
+          start (or join) your show. Backstage watches the show in the
+          background and captures every sale automatically.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>Where do bin numbers come from?</summary>
+        <p>
+          Backstage assigns the next sequential bin number to each new
+          buyer in a show, and reuses the same bin for every additional
+          item that buyer wins during that show. When you end the show,
+          the manifest PDF lists every buyer with their bin number.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>How do I add a sale that I missed?</summary>
+        <p>
+          Tap the <strong>+ Add sale</strong> button at the top of the
+          Live feed. Type the buyer's handle and what they bought.
+          Backstage assigns the bin and adds the sale to the list
+          quietly (no popup banner since you're entering it manually).
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>How do I add notes to an item?</summary>
+        <p>
+          Tap any item row inside a buyer's card. The detail view opens
+          with all the item info plus a notes field — useful for
+          shipping reminders, condition details, or anything you want
+          to remember. Notes save automatically when you close the modal.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>What does "End Show" do?</summary>
+        <p>
+          End Show generates a PDF manifest listing every buyer and
+          their items, saves it to your iPad's Files app
+          (On My iPad → Backstage → Manifests), and clears the Live
+          feed for your next show. The show then appears under
+          <strong>Past Shows</strong>, where you can re-open the
+          manifest, share it, or delete it.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>Where are my manifest PDFs saved?</summary>
+        <p>
+          On your iPad: Files app →
+          <strong>On My iPad → Backstage → Manifests</strong>. From
+          there you can AirDrop them, attach them to email, upload to
+          cloud storage, or print. They're also accessible from inside
+          the app under Past Shows.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>How do I delete a past show?</summary>
+        <p>
+          Tap <strong>Past Shows</strong> → tap <strong>Delete</strong>
+          on the row you want to remove. You'll see a confirmation;
+          tap Delete again. The show, its sales, and the manifest PDF
+          are removed from your device. This can't be undone.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>Can I use Backstage during a show on my phone?</summary>
+        <p>
+          Yes. Backstage runs on iPhone too — the layout adapts to the
+          smaller screen and uses a bottom tab bar. Sales capture works
+          the same way; Whatnot opens full-screen via the bottom tab.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>Does Backstage work offline?</summary>
+        <p>
+          Once unlocked, yes. Sales capture, manifest generation, and
+          Past Shows all work without internet. The Whatnot browser
+          itself needs internet (to show you the live show), and your
+          access code re-validates against our backend every two weeks
+          when you're online — but if that re-validation can't reach the
+          server, the cached unlock is honored.
+        </p>
+      </details>
+
+      <details class="faq">
+        <summary>I lost my access code. What do I do?</summary>
+        <p>
+          Email <a href="mailto:backstageliveapp@gmail.com">backstageliveapp@gmail.com</a>
+          and tell us which device you're on. We'll resend your code
+          (or issue a new one if needed).
+        </p>
+      </details>
+
+      <h2>Reporting bugs</h2>
+      <p>
+        Found something broken? Email us at
+        <a href="mailto:backstageliveapp@gmail.com?subject=Backstage%20Live%20-%20Bug%20report">backstageliveapp@gmail.com</a>
+        with a description of what happened, what you expected, and a
+        screenshot if you can. We'll fix it in the next update.
+      </p>
+
+      <div class="footer">
+        © 2026 SlowArcs LLC ·
+        <a href="/privacy">Privacy</a> ·
+        <a href="/terms">Terms</a> ·
+        <a href="/">Home</a>
+      </div>
+    </div>
+  </body>
+</html>

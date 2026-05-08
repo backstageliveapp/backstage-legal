@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Backstage Live for iPad</title>
+    <meta
+      name="description"
+      content="How Backstage Live collects, uses, and protects your data."
+    />
+    <link rel="canonical" href="https://backstagelive.app/privacy" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://backstagelive.app/privacy" />
+    <meta property="og:title" content="Privacy Policy — Backstage Live" />
+    <meta
+      property="og:description"
+      content="How Backstage Live collects, uses, and protects your data."
+    />
+    <meta property="og:site_name" content="Backstage Live" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Privacy Policy — Backstage Live" />
+    <meta
+      name="twitter:description"
+      content="How Backstage Live collects, uses, and protects your data."
+    />
+    <style>
+      :root {
+        --ink: hsl(25, 18%, 14%);
+        --muted: hsl(25, 10%, 42%);
+        --line: hsl(30, 18%, 88%);
+        --bg: #FCFBF7;
+        --accent: hsl(14, 80%, 55%);
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
+          sans-serif;
+        background: var(--bg);
+        color: var(--ink);
+        line-height: 1.6;
+      }
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 24px 80px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 32px;
+      }
+      .brand-mark {
+        width: 44px;
+        height: 44px;
+        background: hsl(150, 31%, 18%);
+        border-radius: 10px;
+        display: grid;
+        place-items: center;
+      }
+      .brand-mark svg { width: 30px; height: 30px; }
+      .brand-name {
+        font-weight: 800;
+        font-size: 18px;
+        letter-spacing: -0.01em;
+      }
+      h1 {
+        font-size: 32px;
+        margin: 0 0 8px;
+        letter-spacing: -0.02em;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 36px 0 8px;
+        letter-spacing: -0.01em;
+      }
+      h3 {
+        font-size: 15px;
+        margin: 24px 0 6px;
+        letter-spacing: -0.005em;
+      }
+      .updated, .effective {
+        color: var(--muted);
+        font-size: 13px;
+        margin: 0 0 4px;
+      }
+      .effective { margin-bottom: 24px; }
+      p, ul, ol { margin: 0 0 14px; font-size: 15px; }
+      ul { padding-left: 22px; }
+      a { color: var(--accent); }
+      strong { font-weight: 700; }
+      hr {
+        border: none;
+        border-top: 1px solid var(--line);
+        margin: 28px 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 14px;
+        margin: 0 0 14px;
+      }
+      th, td {
+        text-align: left;
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+      }
+      th {
+        font-weight: 700;
+        background: hsl(30, 18%, 95%);
+      }
+      .footer {
+        margin-top: 48px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="brand">
+        <div class="brand-mark">
+          <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 32 94 L 32 58 A 28 28 0 0 1 88 58 L 88 94 Z" fill="#FCFBF7"/>
+            <circle cx="60" cy="66" r="5" fill="#C66B3D"/>
+          </svg>
+        </div>
+        <div class="brand-name">Backstage Live for iPad</div>
+      </div>
+
+      <h1>Privacy Policy</h1>
+      <p class="updated"><strong>Effective:</strong> May 7, 2026</p>
+      <p class="effective"><strong>Last Updated:</strong> May 7, 2026</p>
+
+      <p>
+        This Privacy Policy explains what information
+        <strong>SlowArcs LLC</strong> ("Backstage," "we," "us,"
+        "our"), the operator of Backstage, collects when you use the
+        Services, how we use it, and the choices you have. It works
+        alongside our <a href="/terms">Terms of Service</a>.
+      </p>
+
+      <p>
+        We've tried to write this in plain English. Backstage is
+        <strong>local-first by design</strong> — most of what the app
+        captures stays on your device unless you explicitly opt in to
+        cloud features.
+      </p>
+
+      <hr />
+
+      <h2>1. The Short Version</h2>
+      <ul>
+        <li><strong>Sales data, buyer info, photos, and manifests stay on your device by default.</strong> They're stored locally in the app's encrypted SQLite database.</li>
+        <li><strong>We use Supabase for two things:</strong> validating your beta access code, and (optionally, if you turn it on) syncing your buyer-name cache and show backups across devices.</li>
+        <li><strong>We don't sell your data, ever.</strong> We don't run ads. We don't share your buyer lists with third parties.</li>
+        <li><strong>You can delete everything</strong> by signing out and uninstalling the app, or by emailing us.</li>
+      </ul>
+
+      <hr />
+
+      <h2>2. What Information We Collect</h2>
+
+      <h3>2.1 Information You Provide</h3>
+      <ul>
+        <li><strong>Beta access code.</strong> When you sign in during beta, we send the code to Supabase to verify it's valid and to check what tier of access it grants.</li>
+        <li><strong>Account info (when accounts launch).</strong> When the app moves from beta access codes to user accounts, we'll collect your email address, display name, and a securely hashed password (handled by Supabase Auth).</li>
+        <li><strong>Subscription information (when paid plans launch).</strong> If you subscribe through the App Store, Apple sends us an anonymized transaction identifier and your current subscription status (active, expired, in grace period). We never see your credit card, Apple ID, or billing address — Apple processes the payment.</li>
+        <li><strong>Feedback you send us.</strong> If you email us, we'll have your email and whatever you wrote.</li>
+      </ul>
+
+      <h3>2.2 Information Captured From Live Commerce Platforms</h3>
+      <p>
+        When you run a live show, Backstage captures sale, giveaway,
+        and raid events visible in the Whatnot WebView (or other
+        supported platforms in the future). For each captured event,
+        the app stores <strong>on your device</strong>:
+      </p>
+      <ul>
+        <li>The buyer's public username (handle) and, when resolved, their public display name</li>
+        <li>The item title, lot number, and sale price as Whatnot shows them</li>
+        <li>Sale timestamp</li>
+        <li>An optional screenshot of the moment the sale happened (only if you've turned on snapshots)</li>
+        <li>The bin and box you assigned the buyer to</li>
+      </ul>
+      <p>
+        This data is <strong>only what's already publicly visible</strong>
+        during the live show. We don't capture chat messages, viewer
+        lists, or anything else that wouldn't be visible to any viewer
+        of the show.
+      </p>
+
+      <h3>2.3 Information About Your Device</h3>
+      <ul>
+        <li><strong>Bluetooth printer UUID + name</strong> when you pair a printer (so we can reconnect)</li>
+        <li><strong>App settings</strong> you configure (popup duration, label size, items per box, etc.) — stored in iOS Preferences locally</li>
+        <li><strong>Diagnostic logs</strong> generated locally on your device (helpful when something goes wrong; not transmitted anywhere automatically)</li>
+      </ul>
+
+      <h3>2.4 Permissions We Ask For</h3>
+      <ul>
+        <li><strong>Bluetooth</strong> — to pair and print to your thermal label printer</li>
+        <li><strong>Photo Library</strong> — to attach item photos when prepping listings</li>
+        <li><strong>Camera</strong> — to capture item photos for listings</li>
+        <li><strong>No location, no contacts, no microphone, no health data, no advertising ID.</strong></li>
+      </ul>
+
+      <hr />
+
+      <h2>3. How We Use Information</h2>
+      <p>We use the information we collect to:</p>
+      <ul>
+        <li>Run the Backstage app's core features (capturing sales, assigning bins, printing labels, generating manifests)</li>
+        <li>Validate your beta access code</li>
+        <li>Reconnect to your last paired printer when you re-open the app</li>
+        <li>Sync your data across devices (only when you've explicitly turned on cloud sync)</li>
+        <li>Process your subscription and unlock paid features (when paid plans launch)</li>
+        <li>Respond when you email us</li>
+        <li>Diagnose bugs you report</li>
+        <li>Keep the Services secure and prevent abuse</li>
+      </ul>
+      <p>
+        We <strong>do not</strong> use your information to train AI
+        models, sell to advertisers, or build profiles for marketing.
+      </p>
+
+      <hr />
+
+      <h2>4. Cloud Sync (Opt-In)</h2>
+      <p>
+        Cloud sync is <strong>off by default</strong>. When you turn
+        it on:
+      </p>
+      <ul>
+        <li>A <strong>buyer name cache</strong> (handle → resolved display name) is stored in Supabase so you don't have to re-resolve names on a second device</li>
+        <li>An <strong>end-of-show backup</strong> of your manifest can be saved to Supabase so you can re-download it if your device is lost</li>
+      </ul>
+      <p>
+        You can turn cloud sync off at any time in Settings. When you
+        do, no further data is uploaded; previously synced data stays
+        in Supabase until you delete it (see Section 8).
+      </p>
+
+      <hr />
+
+      <h2>5. Service Providers We Share Data With</h2>
+      <p>
+        We use a small number of providers to run the Services. They
+        only see what they need to do their job, and they're
+        contractually obligated to keep it confidential.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th>What we share</th>
+            <th>Why</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Supabase</strong></td>
+            <td>Beta access code, optional buyer-name cache, optional show backups, account info (when accounts launch), subscription status</td>
+            <td>Database hosting + authentication</td>
+          </tr>
+          <tr>
+            <td><strong>Apple App Store / TestFlight</strong></td>
+            <td>App install + crash data; subscription transactions (when paid plans launch)</td>
+            <td>App distribution, crash reporting, payment processing</td>
+          </tr>
+          <tr>
+            <td><strong>Email provider</strong> (when you write to us)</td>
+            <td>The contents of your email</td>
+            <td>So we can reply</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        We <strong>do not</strong> share data with advertisers, data
+        brokers, marketers, or any party not listed above.
+      </p>
+
+      <hr />
+
+      <h2>6. Third-Party Platforms</h2>
+      <p>
+        Backstage runs <em>alongside</em> live commerce platforms — it
+        doesn't replace them. When you open Whatnot inside Backstage:
+      </p>
+      <ul>
+        <li><strong>Whatnot collects whatever Whatnot normally collects when you use their service</strong> (cookies, account info, view history, etc.). That's governed by Whatnot's own privacy policy, not ours.</li>
+        <li>We don't transmit Whatnot's data to our servers. The capture pipeline reads what's visible on screen and stores it locally on your device.</li>
+      </ul>
+
+      <hr />
+
+      <h2>7. Data Retention</h2>
+      <ul>
+        <li><strong>On your device:</strong> data stays as long as the app is installed. Settings can auto-delete past shows after a period you choose (default: 30 days; "Never" is also an option).</li>
+        <li><strong>In Supabase (when cloud sync is on):</strong> data persists until you delete it or until your account is closed.</li>
+        <li><strong>Account and subscription records (when paid plans launch):</strong> kept while your account is active. If you delete your account or cancel your subscription, we'll delete or anonymize your data within 90 days. Limited billing records may be kept for up to 7 years to comply with tax and accounting laws.</li>
+        <li><strong>Diagnostic logs:</strong> kept for as long as needed to diagnose issues; typically auto-rotated within the app.</li>
+      </ul>
+
+      <hr />
+
+      <h2>8. Your Rights and Choices</h2>
+      <p>You can:</p>
+      <ul>
+        <li><strong>Turn off cloud sync</strong> in Settings at any time.</li>
+        <li><strong>Delete your local data</strong> by tapping a past show and choosing Delete, or by uninstalling the app (which removes everything stored on your device).</li>
+        <li><strong>Delete your cloud data</strong> by emailing us at <a href="mailto:backstageliveapp@gmail.com">backstageliveapp@gmail.com</a>; we'll remove your records from Supabase within 30 days.</li>
+        <li><strong>Export your data</strong> by sharing manifest PDFs from the Past Shows screen.</li>
+        <li><strong>Sign out</strong> at any time, which clears your access code and any cached session.</li>
+      </ul>
+      <p>
+        If you live in California, the EU/UK, or another jurisdiction
+        with data-rights laws (CCPA, GDPR, etc.), you also have the
+        right to:
+      </p>
+      <ul>
+        <li>Request a copy of the personal data we hold about you</li>
+        <li>Ask us to correct it if it's wrong</li>
+        <li>Ask us to delete it</li>
+        <li>Object to certain processing</li>
+        <li>Lodge a complaint with your local data protection authority</li>
+      </ul>
+      <p>
+        To exercise any of these rights, email us at
+        <a href="mailto:backstageliveapp@gmail.com">backstageliveapp@gmail.com</a>.
+      </p>
+
+      <hr />
+
+      <h2>9. Children</h2>
+      <p>
+        Backstage is not intended for use by anyone under 18. We
+        don't knowingly collect personal information from children.
+        If you believe a child has used Backstage, please contact us
+        and we'll delete the account.
+      </p>
+
+      <hr />
+
+      <h2>10. Security</h2>
+      <p>
+        We protect your data with reasonable industry-standard
+        measures:
+      </p>
+      <ul>
+        <li>TLS encryption for all network traffic (app ↔ Supabase ↔ Whatnot)</li>
+        <li>Local SQLite database encrypted at rest using SQLCipher</li>
+        <li>iOS Keychain / Preferences for credential storage</li>
+        <li>Row-level security policies on Supabase tables</li>
+      </ul>
+      <p>
+        That said, <strong>no system is perfectly secure</strong>. If
+        we discover a breach that affects your data, we'll notify you
+        as required by law.
+      </p>
+
+      <hr />
+
+      <h2>11. International Users</h2>
+      <p>
+        Backstage is operated from the United States. If you use the
+        Services from outside the US, your information will be
+        transferred to and processed in the US. By using the
+        Services, you consent to that transfer.
+      </p>
+
+      <hr />
+
+      <h2>12. Changes to This Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. When we
+        do, we'll update the "Last Updated" date at the top. For
+        meaningful changes, we'll try to give you additional notice —
+        by email, in-app message, or a prominent notice on our site.
+      </p>
+      <p>
+        If you keep using Backstage after a change takes effect,
+        you're accepting the new Policy. If you don't agree, stop
+        using the Services and email us to delete your data.
+      </p>
+
+      <hr />
+
+      <h2>13. Contact</h2>
+      <p>
+        Questions about this Privacy Policy, or want to exercise a
+        right under it?
+      </p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:backstageliveapp@gmail.com">backstageliveapp@gmail.com</a><br />
+        <strong>Operator:</strong> SlowArcs LLC
+      </p>
+
+      <div class="footer">
+        © 2026 SlowArcs LLC ·
+        <a href="/terms">Terms</a> ·
+        <a href="/support">Support</a> ·
+        <a href="/">Home</a>
+      </div>
+    </div>
+  </body>
+</html>
